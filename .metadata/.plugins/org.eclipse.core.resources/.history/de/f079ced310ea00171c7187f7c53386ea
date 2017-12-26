@@ -1,0 +1,11 @@
+package edu.jsp.firstProject.module1;
+
+public class FirstClass {
+	int x;
+	int y = x + x;
+	public static void main(String[] args) {
+		System.out.println("Hello Eclipse");
+		int x = 2;
+		int y = x + x;
+	}
+}
