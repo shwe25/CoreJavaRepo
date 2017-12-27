@@ -1,7 +1,0 @@
-package edu.jsp.firstProject.module2;
-
-public class Second {
-	public static void main(String[] args) {
-		FirstClass
-	}
-}
