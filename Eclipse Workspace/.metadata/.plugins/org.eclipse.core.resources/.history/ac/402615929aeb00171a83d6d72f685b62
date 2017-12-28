@@ -1,0 +1,17 @@
+package edu.jsp.inheritence;
+
+public class Employee extends Person{
+
+	int eId;
+	String company;
+	private double salary;
+	
+	public Employee(int uId, int age, String name, char gender, 
+			int eId, String company, double salary) {
+		super(uId, age, name, gender);
+		this.eId = eId;
+		this.company = company;
+		this.salary = salary;
+	}
+	
+}

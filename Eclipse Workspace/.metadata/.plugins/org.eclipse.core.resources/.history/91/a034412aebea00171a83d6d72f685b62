@@ -1,0 +1,8 @@
+package edu.jsp.constructorCalling;
+
+public class SuperClass {
+	int x,y;
+	void m1(){
+		System.out.println("inside m1()...");
+	}
+}

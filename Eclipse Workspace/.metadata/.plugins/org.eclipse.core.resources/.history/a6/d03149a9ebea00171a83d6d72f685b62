@@ -1,0 +1,14 @@
+package edu.jsp.constructorCalling;
+
+public class SuperClass {
+	int x,y;
+	public SuperClass() {
+		System.out.println("inside super constructor");
+		x = 10;
+		y = 20;
+	}
+	
+	void m1(){
+		System.out.println("inside m1()...");
+	}
+}

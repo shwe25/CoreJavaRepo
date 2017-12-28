@@ -1,0 +1,13 @@
+package edu.jsp.constructorCalling;
+
+public class SubClass extends SuperClass {
+	int z;
+	public SubClass() {
+		super(12,23);
+		System.out.println("inside Sub class constructor...");
+		
+	}
+	void m2(){
+		System.out.println("inside m2()...");
+	}
+}

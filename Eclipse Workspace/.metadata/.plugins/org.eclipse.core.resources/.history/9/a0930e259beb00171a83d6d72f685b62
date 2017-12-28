@@ -1,0 +1,12 @@
+package edu.jsp.inheritence;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		System.out.println("Main begins");
+		
+		
+		
+		System.out.println("Main ends");
+	}
+}

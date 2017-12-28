@@ -1,0 +1,12 @@
+package edu.jsp.methodOverloading;
+
+public class ClassA {
+
+	public static void main(String[] args) {
+		System.out.println("main(String[])");
+		main("str");
+	}
+	public static void main(String a) {
+		System.out.println("main()");
+	}
+}
