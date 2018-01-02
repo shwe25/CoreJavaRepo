@@ -1,0 +1,10 @@
+package edu.jsp.abstraction;
+
+public class ImplementationClass implements MyInterface {
+
+	@Override
+	public void m1() {
+		System.out.println("Implementation");
+	}
+
+}

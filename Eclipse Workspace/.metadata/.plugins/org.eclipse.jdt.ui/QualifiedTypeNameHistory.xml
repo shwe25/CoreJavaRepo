@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="edu.jsp.constructorCalling.SuperClass"/>
+<fullyQualifiedTypeName name="edu.jsp.constructorCalling.SubClass"/>
+<fullyQualifiedTypeName name="edu.jsp.inheritence.Person"/>
+<fullyQualifiedTypeName name="edu.jsp.inheritence.Employee"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="edu.jsp.inheritence.Student"/>
+<fullyQualifiedTypeName name="edu.jsp.methodOverloading.ClassA"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="edu.jsp.abstraction.ClassA"/>
+<fullyQualifiedTypeName name="edu.jsp.abstraction.ImplementationClass"/>
+<fullyQualifiedTypeName name="edu.jsp.abstraction.MyInterface"/>
+<fullyQualifiedTypeName name="edu.jsp.abstraction.Interface2"/>
+<fullyQualifiedTypeName name="edu.jsp.abstraction.Interface3"/>
+</qualifiedTypeNameHistroy>

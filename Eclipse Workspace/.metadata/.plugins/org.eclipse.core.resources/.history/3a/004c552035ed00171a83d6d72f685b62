@@ -1,0 +1,9 @@
+package edu.jsp.abstraction;
+
+public abstract class ClassA {
+
+	public ClassA() {
+		System.out.println("ClassA Constructor");
+	}
+	abstract void m1();
+}

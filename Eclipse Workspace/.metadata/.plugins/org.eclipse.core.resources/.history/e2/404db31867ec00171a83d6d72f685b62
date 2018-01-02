@@ -1,0 +1,13 @@
+package edu.jsp.inheritence.typecasting;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		
+		A a = new A();
+		B b = new B();
+		A c = b;
+		B b1 = (B)a;
+		
+	}
+}

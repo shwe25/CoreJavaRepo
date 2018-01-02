@@ -1,0 +1,17 @@
+package edu.jsp.abstraction.utilization;
+
+import edu.jsp.abstraction.impl.Light;
+import edu.jsp.abstraction.obj.Switch;
+
+public class Util {
+
+	public static void main(String[] args) {
+		
+		Light light = Switch.getLight("tub");
+		if(light != null){
+			light.onState();
+		}
+		
+		light.toString();
+	}
+}

@@ -1,0 +1,6 @@
+package edu.jsp.abstraction;
+
+public abstract class ClassA {
+
+	abstract void m1();
+}

@@ -1,0 +1,13 @@
+package edu.jsp.abstraction;
+
+interface MyInterface {
+
+	void m1();
+	int X=19;
+	void m2(){
+		System.out.println("Interface static method...");
+	}
+	default void m3(){
+		System.out.println("Default method...");
+	}
+}

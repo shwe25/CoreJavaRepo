@@ -1,0 +1,11 @@
+package edu.jsp.inheritence.typecasting;
+
+public class B extends A{
+
+	int y;
+	
+	@Override
+	public B m1(int x) {
+		return new B();
+	}
+}

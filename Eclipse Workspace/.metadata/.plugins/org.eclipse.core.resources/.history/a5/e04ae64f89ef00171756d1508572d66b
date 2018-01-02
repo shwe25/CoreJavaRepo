@@ -1,0 +1,5 @@
+package edu.jsp.abstraction.impl;
+
+public interface Light {
+
+}

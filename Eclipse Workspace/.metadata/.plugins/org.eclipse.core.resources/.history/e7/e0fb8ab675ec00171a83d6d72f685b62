@@ -1,0 +1,19 @@
+package edu.jsp.inheritence.typecasting;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		
+		A a = new A();
+		a.m1("str");
+		B b = new B();
+		A c = b;
+		if(b instanceof B){
+			//B b1 = (B)a;
+			System.out.println(b.x);
+		}else{
+			System.out.println("Not an instance");
+		}
+		
+	}
+}

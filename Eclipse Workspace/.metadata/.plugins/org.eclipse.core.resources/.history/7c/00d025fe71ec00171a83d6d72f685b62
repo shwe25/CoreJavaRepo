@@ -1,0 +1,6 @@
+package edu.jsp.inheritence.typecasting;
+
+public class A {
+
+	int x;
+}
