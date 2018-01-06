@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-<listEntry value="/EncapulationDemo/src/edu/jsp/methodOverloading/ClassA.java"/>
+<listEntry value="/JavaDemoPgms/src/edu/jsp/methodOverloading/ClassA.java"/>
 </listAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="1"/>
 </listAttribute>
 <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="edu.jsp.methodOverloading.ClassA"/>
 <stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="a b c"/>
-<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="EncapulationDemo"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="JavaDemoPgms"/>
 </launchConfiguration>

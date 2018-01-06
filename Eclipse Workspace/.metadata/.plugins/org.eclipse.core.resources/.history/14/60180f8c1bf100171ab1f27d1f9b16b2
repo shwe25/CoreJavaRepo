@@ -1,0 +1,6 @@
+package edu.jsp.string;
+
+public interface StringDemo {
+
+	
+}

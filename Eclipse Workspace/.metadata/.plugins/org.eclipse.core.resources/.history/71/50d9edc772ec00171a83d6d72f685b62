@@ -1,6 +1,0 @@
-package edu.jsp.inheritence.typecasting;
-
-public class B extends A{
-
-	int y;
-}

@@ -1,0 +1,10 @@
+package edu.jsp.exception;
+
+public class ExceptionDemo2 {
+	public static void main(String[] args) {
+		System.out.println("Begin main");
+		int a[] = new int[5];
+		a[5] = 102;// Exception occurs.  JVM identifies and creates ArrayIndexOutOfBoundsException object.
+		System.out.println("End of main");
+	}
+}

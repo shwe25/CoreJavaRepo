@@ -1,0 +1,9 @@
+package edu.jsp.collections.arraylist;
+
+public class Dog extends Animal
+{
+	void eating()
+	{
+		System.out.println("Dog is eating");
+	}
+}

@@ -14,4 +14,12 @@
 <fullyQualifiedTypeName name="edu.jsp.abstraction.MyInterface"/>
 <fullyQualifiedTypeName name="edu.jsp.abstraction.Interface2"/>
 <fullyQualifiedTypeName name="edu.jsp.abstraction.Interface3"/>
+<fullyQualifiedTypeName name="edu.jsp.abstraction.impl.LedLight"/>
+<fullyQualifiedTypeName name="edu.jsp.abstraction.impl.TubeLight"/>
+<fullyQualifiedTypeName name="edu.jsp.abstraction.impl.Light"/>
+<fullyQualifiedTypeName name="edu.jsp.abstraction.obj.Switch"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="java.lang.Thread"/>
+<fullyQualifiedTypeName name="edu.jsp.exception.DemoException"/>
 </qualifiedTypeNameHistroy>

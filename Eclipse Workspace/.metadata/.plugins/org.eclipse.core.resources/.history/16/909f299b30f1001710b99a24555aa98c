@@ -1,0 +1,13 @@
+package edu.jsp.exception;
+
+public class DemoException {
+	static DemoException d;
+	public static void main(String[] args) {
+		d.m1();
+	}
+	
+	void m1(){
+		System.out.println("m1()....");
+	}
+	
+}

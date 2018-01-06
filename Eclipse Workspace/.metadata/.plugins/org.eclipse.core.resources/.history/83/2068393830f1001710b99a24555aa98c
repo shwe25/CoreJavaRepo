@@ -1,0 +1,16 @@
+package edu.jsp.exception;
+
+public class DemoException {
+
+	public static void main(String[] args) {
+	
+		DemoException d;
+		
+		d.m1();
+	}
+	
+	void m1(){
+		System.out.println("m1()....");
+	}
+	
+}

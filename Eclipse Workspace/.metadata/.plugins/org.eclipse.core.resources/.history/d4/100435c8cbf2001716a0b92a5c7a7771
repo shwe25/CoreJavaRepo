@@ -1,0 +1,15 @@
+package edu.jsp.exception;
+
+public class DemoException {
+
+	public static void main(String[] args) {
+
+		for (int i = 0; i < 5; i++) {
+			try {
+				Thread.sleep(5);
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+		}
+	}
+}

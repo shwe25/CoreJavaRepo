@@ -1,0 +1,12 @@
+package edu.jsp.exception;
+
+public class DemoException {
+
+	public static void main(String[] args) throws InterruptedException {
+
+		for (int i = 0; i < 5; i++) {
+				Thread.sleep(2000);
+				System.out.println(i);
+		}
+	}
+}
