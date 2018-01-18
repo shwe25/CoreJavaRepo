@@ -1,0 +1,23 @@
+package edu.jsp.collections.treeset;
+
+import java.util.Iterator;
+import java.util.Set;
+import java.util.TreeSet;
+
+public class TreeSetDemo {
+
+	public static void main(String[] args) {
+		Set<Integer> set = new TreeSet<>();
+		set.add(19);
+		set.add(2);
+		set.add(16);
+		set.add(13);
+		set.add(5);
+		Iterator<Integer> iterator = set.iterator();
+		for (Integer integer : set) {
+			System.out.println(integer);
+		}
+		
+		System.out.println(set);
+	}
+}

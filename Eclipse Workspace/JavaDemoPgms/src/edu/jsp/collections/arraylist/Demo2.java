@@ -16,9 +16,6 @@ public class Demo2 {
 		list.add(55);
 		list.add(11);
 		
-		// type safety, cannot add String
-		// list.add("cluster");
-
 		// for each loop & auto unboxing
 		for (int x : list) {
 			System.out.println(x);

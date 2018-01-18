@@ -12,7 +12,7 @@ public class Demo1 {
 		set.add(111);
 		set.add(222);
 		set.add(333);
-		set.add(444);
+		set.add(333);
 		set.add(555);
 
 		for (int x : set) {

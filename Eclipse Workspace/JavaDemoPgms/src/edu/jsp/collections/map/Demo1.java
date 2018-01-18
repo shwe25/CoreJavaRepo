@@ -9,14 +9,14 @@ public class Demo1 {
 
 		Map<Integer, String> map = new TreeMap<Integer, String>();
 
-		map.put(103, "CCC");
+		map.put(103, "AAA");
 		map.put(105, "EEE");
 		map.put(102, "BBB");
 		map.put(101, "AAA");
 		map.put(104, "DDD");
 
-		String s = map.get(103);
-		System.out.println("Value of 103 is: " + s);
+		String s = map.get(104);
+		System.out.println("Value of 104 is: " + s);
 
 	}
 

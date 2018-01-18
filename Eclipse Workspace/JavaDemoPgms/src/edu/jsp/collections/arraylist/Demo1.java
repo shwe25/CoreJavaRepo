@@ -12,7 +12,7 @@ public static void main(String[] args) {
 		list.add(new Integer(99));
 		list.add(new Double(99.99));
 		
-		Iterator it = list.iterator();
+		Iterator it = list.iterator();//abstraction
 		while(it.hasNext())
 		{
 			Object o = it.next();

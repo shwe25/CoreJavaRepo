@@ -1,0 +1,11 @@
+package edu.jsp.threads;
+
+public class MainClass {
+	public static void main(String[] args) {
+		Printer ptr = new Printer();
+		Comp1 c1 = new Comp1(ptr);
+		Comp2 c2 = new Comp2(ptr);
+		c1.start();
+		c2.start();
+	}
+}

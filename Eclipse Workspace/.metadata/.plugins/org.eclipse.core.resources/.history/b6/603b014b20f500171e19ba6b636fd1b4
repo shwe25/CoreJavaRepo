@@ -1,0 +1,12 @@
+package edu.jsp.threads;
+
+import edu.jsp.methodOverloading.ClassA;
+
+public class Thread2 implements Runnable{
+
+	@Override
+	public void run() {
+		
+	}
+
+}

@@ -1,0 +1,21 @@
+package edu.jsp.threads;
+
+public class Test {
+	public static void main(String[] args) {
+		Thread1 t1 = new Thread1();
+		Thread2 t2 = new Thread2();
+		Thread t = new Thread(t2);
+		
+		System.out.println("Thread 1 id = "+t1.getId());
+		System.out.println("Thread 1 name = "+t1.getName());
+		System.out.println("Thread 1 priority = "+t1.getPriority());
+		
+		System.out.println("Thread 2 id = "+t.getId());
+		System.out.println("Thread 2 name = "+t.getName());
+		System.out.println("Thread 2 priority = "+t.getPriority());
+		
+		t1.start();
+		t.start();
+		
+	}
+}

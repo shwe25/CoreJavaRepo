@@ -1,8 +1,0 @@
-package edu.jsp.collections.arraylist;
-
-public class Animal {
-
-	void eating(){
-		System.out.println("Animal is eating");
-	}
-}

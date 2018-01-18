@@ -1,0 +1,13 @@
+package edu.jsp.threads;
+
+public class GarbageCollecterExe {
+	@Override
+	protected void finalize() throws Throwable {
+		System.out.println("Object Deleted");
+	}
+	
+	public static void main(String[] args) {
+		new GarbageCollecterExe();
+		System.gc();
+	}
+}

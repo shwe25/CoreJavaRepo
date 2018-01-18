@@ -10,6 +10,15 @@ public static void main(String[] args) {
 		strList.add("BBB");
 		strList.add("AAA");
 		strList.add("DDD");
+		strList.add("BBB");
+		strList.add("AAA");
+		strList.add("DDD");
+		strList.add("BBB");
+		strList.add("AAA");
+		strList.add("DDD");
+		strList.add("BBB");
+		strList.add("AAA");
+		strList.add("DDD");
 		
 		List<Object> objectList = new ArrayList<Object>();
 		objectList.add(20);
@@ -28,19 +37,19 @@ public static void main(String[] args) {
 		dogList.add(new Dog());
 		
 		
-		System.out.println("Executing m1 Unbounded wildcard*********");
+		//System.out.println("Executing m1 Unbounded wildcard*********");
 		Hello h1 = new Hello();
-		h1.m1(strList);
+		/*h1.m1(strList);
 		h1.m1(objectList);
 		h1.m1(animalList);
-		h1.m1(dogList);
+		h1.m1(dogList);*/
 		
-		System.out.println();
+		/*System.out.println();
 		System.out.println("Executing m2 upperbound wildcard*********");
-	//	h1.m2(strList); // not in Animal hierarchy
-	//	h1.m2(objectList); // super class of Animal
+		//h1.m2(strList); // not in Animal hierarchy
+		//h1.m2(objectList); // super class of Animal
 		h1.m2(animalList);
-		h1.m2(dogList);
+		h1.m2(dogList);*/
 		
 		System.out.println();
 		System.out.println("Executing m3 lowerbound wildcard*********");

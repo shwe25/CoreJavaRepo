@@ -1,0 +1,15 @@
+package edu.jsp.threads;
+
+public class Comp1 extends Thread {
+	Printer ptr = null;
+	public Comp1(Printer ptr) {
+		this.ptr = ptr;
+	}
+	
+	@Override
+	public void run() {
+		synchronized (ptr) {			
+			ptr.print("Computer 1");
+		}
+	}
+}

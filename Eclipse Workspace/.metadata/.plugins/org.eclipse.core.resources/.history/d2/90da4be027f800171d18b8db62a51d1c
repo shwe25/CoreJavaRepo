@@ -1,0 +1,16 @@
+package basics;
+
+public class Day3 {
+	public static void main(String[] args)
+	{
+		int n,b,c,d=0;
+		n=b=c=d=20;
+		String st="ssp";
+		int a=10;
+		b=20;
+		System.out.println(a+b+c+st);
+		System.out.println(a+b+st+c);
+		System.out.println(st+a+b+c);
+	}
+
+}

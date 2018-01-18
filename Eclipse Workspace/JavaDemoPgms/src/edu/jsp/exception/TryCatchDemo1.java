@@ -10,7 +10,7 @@ public class TryCatchDemo1 {
 		
 		try {
 			System.out.println("Begin try");
-			z = x/y; // Exception occurs.  JVM identifies and creates a corresponding exception object.
+			z = x/y; // Exception occurs.JVM identifies and creates a corresponding exception object.
 			System.out.println("Result of division is " + z);
 			System.out.println("End try");
 			
@@ -21,9 +21,9 @@ public class TryCatchDemo1 {
 			int q = 2;
 			int r = p/q;
 			System.out.println("Result of division is " + r);
-		//	System.out.println(e); // Used for debugging
-		//	e.printStackTrace(); // Used for debugging
-		//	System.out.println(e.getMessage()); // Used for debugging
+			System.out.println(e); // Used for debugging
+			e.printStackTrace(); // Used for debugging
+			System.out.println(e.getMessage()); // Used for debugging
 			System.out.println("End catch");
 		}
 		

@@ -1,9 +1,0 @@
-package edu.jsp.string;
-
-public class StringDemo {
-
-	public static void main(String[] args) {
-		String st = "ABC";
-		System.out.println(st.hashCode());
-	}
-}
